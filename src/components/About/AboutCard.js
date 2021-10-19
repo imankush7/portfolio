@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Kumar Ankush </span>
             from <span className="purple"> Bhagalpur, Bihar, India.</span>
             <br /> I have completed my graduation in Computer Science Engineering.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            <br /> I am a passionate developer, a quick-learner, avid explorer and highly motivated person who is always curious to solve new challenges
+            <br />I beleive this will lay a sturdy foundation to my mushrooming career.
+            <br/>Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">

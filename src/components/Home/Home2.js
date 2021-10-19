@@ -22,8 +22,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body" data-aos="fade-up">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and I have learned a lot.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -33,7 +32,7 @@ function Home2() {
               <br />
               My field of Interest's are building websites &nbsp;
               <i>
-                <b className="purple">for social cause</b> and
+                <b className="purple">for social cause</b> like donations,teaching etc  and
                 also in areas related to{" "}
                 <b className="purple">
                   commercial living
