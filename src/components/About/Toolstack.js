@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiVisualstudiocode, SiPostman, SiHeroku } from "react-icons/si";
+import { SiVisualstudiocode, SiPostman, SiHeroku,SiNetlify } from "react-icons/si";
 
 function Toolstack() {
   return (
@@ -16,6 +16,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
         <div style={{fontSize:"18px"}}>Heroku</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify />
+        <div style={{fontSize:"18px"}}>Netlify</div>
       </Col>
     </Row>
   );
