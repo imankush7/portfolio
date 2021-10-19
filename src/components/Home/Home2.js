@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-
+import {SiGmail} from "react-icons/si"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -76,6 +76,17 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+            <li className="social-icons">
+                <a
+                  href="g"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGmail/>
+                </a>
+                <div> ankushkrsingh96@gmail.com</div>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/imankush7"
@@ -85,6 +96,7 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
+                <div>github.com/imankush7</div>
               </li>
               <li className="social-icons">
                 <a
@@ -95,6 +107,7 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
+                <div>twitter.com/KumarAnkush107</div>
               </li>
               <li className="social-icons">
                 <a
@@ -105,17 +118,18 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+                <div> linkedin.com/in/krankush1007</div>
+              </li>              
             </ul>
             <h3>
               Contact No:
               <p
-                href="tel:+9356667630"
+                href="tel:+9470683808"
                 style={{
                   color: "purple",
                 }}
               >
-                +919470683808
+                +91 9470683808
               </p>
             </h3>
             <br /> <br />
