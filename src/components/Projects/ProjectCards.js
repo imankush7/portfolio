@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
 import { RiLiveLine } from "react-icons/ri";
+import {SiHashnode} from "react-icons/si"
 
 import "./proj.css";
 import { Col } from "react-bootstrap";
@@ -19,9 +20,12 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-
+        <h6 style={{textAlign:"left"}} ><span className="purple">Features Implemented:</span>{props.Features}</h6>
+        <h6 style={{textAlign:"left"}} ><span className="purple">Tech use:</span>{props.tech}</h6>
+        <h6  style={{textAlign:"left"}} ><span className="purple">Duration:</span>{props.duration}</h6>
         <Col md={12} className="home-about-social">
           <h1></h1>
+          <br/>
           <p>
             Find<span className="purple"> More </span>below
           </p>
@@ -36,16 +40,16 @@ function ProjectCards(props) {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href={props.linkmedium}
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
               >
-                <AiFillMediumCircle />
+                <SiHashnode/>
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
                 href={props.linklive}

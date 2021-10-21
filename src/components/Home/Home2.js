@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+import laptopImg from "../../Assets/about.png";
+import Aboutcard from "../About/AboutCard";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import {SiGmail} from "react-icons/si"
@@ -8,7 +9,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import TransitionsModal from "../Modal/ContactModal.jsx";
-import avatarImg from "../../Assets/propic.jpg"
+import avatarImg from "../../Assets/Ankush_Propic.jpg"
 function Home2() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
@@ -67,6 +68,34 @@ function Home2() {
                 alt="avatar"
               />
             </Tilt>
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1
+              style={{ fontSize: "2.1em", paddingBottom: "20px",color:"white" }}
+              data-aos="fade-right"
+            >
+              Know Who <strong className="purple">I'M</strong>
+            </h1>
+            <div data-aos="fade-right">
+              <Aboutcard />
+            </div>
+          </Col>
+          <Col
+            md={5}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+            data-aos="fade-down"
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <Row>
