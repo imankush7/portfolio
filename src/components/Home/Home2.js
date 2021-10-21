@@ -22,7 +22,10 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body" data-aos="fade-up">
+            <div data-aos="fade-right">
+              <Aboutcard />
+            </div> 
+            {/* <p className="home-about-body" data-aos="fade-up">
               I fell in love with programming and I have learned a lot.
               <br />
               <br />I am fluent in classics like
@@ -53,7 +56,7 @@ function Home2() {
               <i>
                 <b className="purple"> React.js </b>
               </i>
-            </p>
+            </p> */}
           </Col>
           <Col
             md={4}
@@ -85,9 +88,41 @@ function Home2() {
             >
               Know Who <strong className="purple">I'M</strong>
             </h1>
-            <div data-aos="fade-right">
+            <p className="home-about-body" data-aos="fade-up" style={{color:"white"}}>
+              I fell in love with programming and I have learned a lot.
+              <br />
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple"> Javascript. </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest's are building websites &nbsp;
+              <i>
+                <b className="purple">for social cause</b> like donations,teaching etc  and
+                also in areas related to{" "}
+                <b className="purple">
+                  commercial living
+                </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Modern Javascript Library and Frameworks
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> React.js </b>
+              </i>
+            </p>
+            {/* <div data-aos="fade-right">
               <Aboutcard />
-            </div>
+            </div> */}
           </Col>
           <Col
             md={5}
