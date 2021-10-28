@@ -82,12 +82,12 @@ function Home2() {
               paddingBottom: "50px",
             }}
           >
-            <h1
+            {/* <h1
               style={{ fontSize: "2.1em", paddingBottom: "20px",color:"white" }}
               data-aos="fade-right"
             >
               Know Who <strong className="purple">I'M</strong>
-            </h1>
+            </h1> */}
             <p className="home-about-body" data-aos="fade-up" style={{color:"white"}}>
               I fell in love with programming and I have learned a lot.
               <br />
